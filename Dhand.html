@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pharmacy System Dashboard</title>
+    <link rel="stylesheet" href="Dhand.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Pharmacy System Dashboard</h1>
+      <a href="Login2.html" class="logout">Logout</a>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li class="active"><a href="Dhand.html">Dashboard</a></li>
+        <li><a href="Suppliers.html">Suppliers</a></li>
+        <li><a href="Product.html">Inventory</a></li>
+        <li><a href="Prescriptions .html">Prescriptions</a></li>
+        <li><a href="Orders.html">Orders</a></li>
+        <li><a href="Reports.html">Reports</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <h2>Dashboard</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Suppliers</h3>
+          <p>You have 25 suppliers registered in your system.</p>
+          <a href="Suppliers.html" class="button">View Suppliers</a>
+        </div>
+        <div class="card">
+          <h3>Inventory</h3>
+          <p>You have 127 products in your inventory.</p>
+          <a href="Product.html" class="button">View Inventory</a>
+        </div>
+        <div class="card">
+          <h3>Prescriptions</h3>
+          <p>You have 10 new prescriptions waiting to be processed.</p>
+          <a href="Prescriptions .html" class="button">View Prescriptions</a>
+        </div>
+        <div class="card">
+          <h3>Orders</h3>
+          <p>You have 5 new orders waiting to be processed.</p>
+          <a href="Orders.html" class="button">View Orders</a>
+        </div>
+      </div>
+      <div class="table-container">
+        <h2>Inventory</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Last Updated</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aspirin</td>
+              <td>Pain relief medication</td>
+              <td>$5.99</td>
+              <td>10</td>
+              <td>2023-05-10</td>
+            </tr>
+            <tr>
+              <td>Band-Aids</td>
+              <td>Adhesive bandages</td>
+              <td>$2.99</td>
+              <td>20</td>
+              <td>2023-05-10</td>
+            </tr>
+            <tr>
+              <td>Antibiotics</td>
+              <td>Antibacterial medication</td>
+              <td>$15.99</td>
+              <td>5</td>
+              <td>2023-05-10</td>
+            </tr>
+            <tr>
+              <td>Vitamins</td>
+              <td>Dietary supplements</td>
+              <td>$8.99</td>
+              <td>15</td>
+              <td>2023-05-10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
