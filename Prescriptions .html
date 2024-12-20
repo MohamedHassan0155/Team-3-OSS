@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pharmacy System - Prescriptions</title>
+    <link rel="stylesheet" href="Prescriptions .css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Pharmacy System</h1>
+      <a href="Login2.html" class="logout">Logout</a>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="Dhand.html">Dashboard</a></li>
+        <li><a href="Suppliers.html">Suppliers</a></li>
+        <li><a href="Product.html">Inventory</a></li>
+        <li class="active"><a href="Prescriptions .html">Prescriptions</a></li>
+        <li><a href="Customers.html">Customers</a></li>
+        <li><a href="Orders.html">Orders</a></li>
+        <li><a href="Reports.html">Reports</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <h2>Prescriptions</h2>
+      <div class="prescription-container">
+        <form>
+          <div class="form-group">
+            <label for="patient-name">Patient Name:</label>
+            <input type="text" id="patient-name" name="patient-name">
+          </div>
+          <div class="form-group">
+            <label for="doctor-name">Doctor Name:</label>
+            <input type="text" id="doctor-name" name="doctor-name">
+          </div>
+          <div class="form-group">
+            <label for="medication">Medication:</label>
+            <textarea id="medication" name="medication"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="dosage">Dosage:</label>
+            <input type="text" id="dosage" name="dosage">
+          </div>
+          <div class="form-group">
+            <label for="refills">Refills:</label>
+            <input type="number" id="refills" name="refills">
+          </div>
+          <button type="submit">Add Prescription</button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>Patient Name</th>
+              <th>Doctor Name</th>
+              <th>Medication</th>
+              <th>Dosage</th>
+              <th>Refills</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Smith</td>
+              <td>Dr. Jane Doe</td>
+              <td>Aspirin</td>
+              <td>500mg</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Jane Doe</td>
+              <td>Dr. John Smith</td>
+              <td>Ibuprofen</td>
+              <td>200mg</td>
+              <td>1</td>
+            </tr>
+            <!-- More prescriptions here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
